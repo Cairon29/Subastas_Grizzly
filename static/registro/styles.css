@@ -1,0 +1,68 @@
+* {
+    font-family: sans-serif;
+
+}
+
+body {
+    background-image: url(../images/try2.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+
+#cuadroInteractivo {
+    background-color: rgba(24, 52, 81, 0.43);
+    padding: 40px;
+    margin: auto;
+    border-radius: 50px;
+}
+
+.datosUsuario{
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(228, 225, 208);
+}
+
+.datosUsuario:hover{
+    background-color: rgb(193, 211, 239);
+}
+
+.secondBackground{
+    background-color: rgb(1, 24, 35);
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 50vh;
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.registro {
+    font-size: 28px;
+    color: rgb(228, 225, 208);
+}
+
+.font1 {
+    color: rgb(228, 225, 208);
+}
+.ingresarDatos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+#registrarseBtn {
+    padding: 10px 15px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#registrarseBtn:hover {
+    background-color: rgb(237, 186, 164);
+}
